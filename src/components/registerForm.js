@@ -175,6 +175,7 @@ function RegisterationForm() {
 						id="contained-button-file"
 						type="file"
 						name="profilePic"
+						accept=".png, .jpg, .jpeg"
 					/>
 
 					<Typography sx={{ mt: "50px" }} variant="h6">
@@ -264,6 +265,7 @@ function RegisterationForm() {
 
 						<Grid className="form-textfield" size={{ lg: 6, md: 6, sm: 6, xs: 12 }}>
 							<Box  >
+								Gender:
 								<RadioGroup
 									className="radio-btn-group"
 									aria-labelledby="demo-radio-buttons-group-label"
@@ -271,6 +273,7 @@ function RegisterationForm() {
 									name="gender"
 									onChange={handleChange}
 								>
+							
 									<FormControlLabel name="gender" className="radio-btn" value="male" control={<Radio />} label="Male" />
 									<FormControlLabel name="gender" className="radio-btn" value="female" control={<Radio />} label="Female" />
 
