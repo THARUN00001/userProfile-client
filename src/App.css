@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Removes any default margin that might appear */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-box{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h4{
+  margin: 7px;
+}
+
+.form-textfield{
+    width: 80%;
+}
+
+#demo-radio-buttons-group-label{
+  color: black;
+}
+
+.Mui-checked {
+  color: black !important;
+}
+
+.radio-btn-group{
+ 
+  flex-direction: row !important;
+}
+
+.form-input .MuiInputBase-root.Mui-focused fieldset {
+
+  border-color: black;
+}
+
+
+/* Style the label color when focused */
+.form-input .MuiInputLabel-root.Mui-focused {
+  color: black;
+}
