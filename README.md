@@ -1,4 +1,4 @@
-# userProfile-server
+# userProfile-client
 
 # Getting Started with React app
 
